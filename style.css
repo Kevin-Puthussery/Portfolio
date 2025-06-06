@@ -13,8 +13,8 @@ body {
 .hero-img {
     border-radius: 50%;
     border: 4px solid #6f5eff;
-    width: 350px;
-    height: 350px;
+    width: 330px;
+    height: 370px;
     object-fit: cover;
 }
 
@@ -23,14 +23,6 @@ body {
     padding: 10px 25px;
     font-weight: 500;
 }
-
-/*navbar*/
-
-.navbar .nav-link {
-    color: #aaa;
-    font-weight: 500;
-}
-
 
  .section-title {
       color: #6c63ff;
@@ -43,6 +35,19 @@ body {
       position: relative;
       display: inline-block;
     }
+
+/*navbar*/
+
+.navbar .nav-link {
+    color: #aaa;
+    font-weight: 400;
+}
+
+
+    .nav-link:hover{
+      color: #6c63ff; 
+    }
+
 
 /*About*/
 
@@ -80,8 +85,8 @@ body {
     }
 
     .service-icon {
-      width: 90px;
-      height: 60px;
+      width: 85px;
+      height: 80px;
       display: flex;
       align-items: center;
       justify-content: center;
