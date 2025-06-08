@@ -44,9 +44,9 @@ body {
 }
 
 
-    li a:hover{
-      color: #6c63ff; 
-    }
+   .nav-link:hover {
+    color: #6c63ff !important; 
+  }
 
 
 /*About*/
@@ -70,7 +70,7 @@ body {
     }
 
     .section-container {
-      padding: 100px 20px;
+      padding: 90px 20px;
       text-align: center;
     }
 
